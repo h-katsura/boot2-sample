@@ -24,15 +24,15 @@ Spring Boot2 動作確認 ハンズオン
 
 # ハンズオン
 
-##ソースコードのインポート
+## ソースコードのインポート
 ソースを配置したいディレクトリにて、下記のコマンドで、GitHubからクローンしてください。
 
-```
+```shell-session
 $ git clone https://github.com/h-katsura/boot2-sample.git
 ```
 
  IDEにて、ソースコードのimportを行ってください。  
- ★TODO★STSの画面キャプチャを張り付ける　＞大場さん、落合さんよろしく。
+ **<font color="Red">★TODO★STSの画面キャプチャを張り付ける　＞大場さん、落合さんよろしく。</font>**
  
 1. Spring Tool Suiteを起動します。
 2. [File]-[Import]を選択します。
@@ -41,7 +41,7 @@ $ git clone https://github.com/h-katsura/boot2-sample.git
 5. [boot2-sample]のプロジェクトが表示され、チェックが入っていることを確かめて[Finish]を選択します。
 6. プロジェクトのインポートが始まります。Maven Centralからライブラリのダウンロードを行うため、しばらく時間がかかります。
 
-##実行確認
+## 実行確認
 1. [boot2-sample]プロジェクトのcom.example.Applicationクラスにmain()メソッドがあるので、実行してください。  
 Spring Tool Suiteの場合、[Run As]-[Java Application]で実行してください。
 2. コンソールを確認してください。スタックトレースなどが出ておらず、最後に「情報: Starting ProtocolHandler ["http-nio-8080"]」と表示されていれば、組み込みTomcatがポート番号8080で正しく起動しています。
