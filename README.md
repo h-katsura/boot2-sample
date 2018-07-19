@@ -32,7 +32,6 @@ $ git clone https://github.com/h-katsura/boot2-sample.git
 ```
 
  IDEにて、ソースコードのimportを行ってください。  
- **★TODO★STSの画面キャプチャを張り付ける　＞大場さん、落合さんよろしく。**
  
  ![画像](sts.png)
  
