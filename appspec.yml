@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: lib/boot2-sample-0.0.1-SNAPSHOT.jar
-    destination: /opt/apl/lib
+  - source: boot2-sample-0.0.1-SNAPSHOT.jar
+    destination: /opt/apl
 hooks:
   ApplicationStart:
     - location: scripts/start.sh
