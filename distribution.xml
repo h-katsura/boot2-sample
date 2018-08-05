@@ -12,12 +12,12 @@
     <includeBaseDirectory>false</includeBaseDirectory>
     <fileSets>
         <fileSet>
-            <directory>/scripts</directory>
+            <directory>scripts</directory>
             <outputDirectory>scripts</outputDirectory>
         </fileSet>
         <fileSet>
             <directory>target</directory>
-            <outputDirectory>lib</outputDirectory>
+            <outputDirectory></outputDirectory>
             <includes>
                 <include>*.jar</include>
             </includes>
