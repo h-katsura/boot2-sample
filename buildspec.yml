@@ -15,6 +15,11 @@ phases:
     commands:
       - echo Build completed on `date`
 artifacts:
-  type: zip
   files:
-    - target/boot2-sample-0.0.1-SNAPSHOT-distribution.zip
+    - target/boot2-sample-0.0.1-SNAPSHOT.jar
+    - appspec.yml
+    - scripts/start.sh
+    - scripts/stop.sh
+    - scripts/beforeinstall.sh
+
+  discard-paths: yes

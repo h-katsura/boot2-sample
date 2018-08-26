@@ -4,11 +4,15 @@ files:
   - source: boot2-sample-0.0.1-SNAPSHOT.jar
     destination: /opt/apl
 hooks:
+  BeforeInstall:
+    - location: beforeinstall.sh
+      timeout: 300
+      runas: root
   ApplicationStart:
-    - location: scripts/start.sh
+    - location: start.sh
       timeout: 300
       runas: root
   ApplicationStop:
-    - location: scripts/stop.sh
+    - location: stop.sh
       timeout: 300
       runas: root

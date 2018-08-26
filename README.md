@@ -1,5 +1,5 @@
 Spring Boot2 動作確認 ハンズオン
 ================================
 
-# ハンズオン⑤　
-- CodeDeploy コード例
+# ハンズオン⑥：CodePipeline
+- CodePipelineコード例
