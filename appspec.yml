@@ -1,0 +1,14 @@
+version: 0.0
+os: linux
+files:
+  - source: boot2-sample-0.0.1-SNAPSHOT.jar
+    destination: /opt/apl
+hooks:
+  ApplicationStart:
+    - location: scripts/start.sh
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: scripts/stop.sh
+      timeout: 300
+      runas: root
