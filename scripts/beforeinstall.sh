@@ -1,0 +1,1 @@
+sudo rm /opt/apl/boot2-sample-0.0.1-SNAPSHOT.jar
